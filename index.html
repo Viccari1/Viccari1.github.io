@@ -1,11 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .bg-darker {
+            background-color:rgb(42, 44, 46);
+        }
+    </style>
+    <title>Meu Portfólio</title>
 </head>
-<body>
-    <h1>Hello World!</h1>
+<body class="bg-dark text-white">
+    <div class="container mt-5">
+        <div class="jumbotron bg-dark text-center">
+            <h1 class="display-4">Portfólio de Programador Júnior</h1>
+            <p class="lead">Seja bem-vindo ao meu portfólio!</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Sobre Mim</h2>
+                <p>Olá, me chamo Andrey Viccari, e sou um programador em busca de conhecimento na área da tecnologia.</p>
+                <p>Comecei a gostar dessa área depois de perceber que tudo pode ser criado do zero, com tempo e dedicação.</p>    
+            </div>
+            <div class="col-md-4">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>HTML, CSS e JS</li>
+                    <li>Bootstrap</li>
+                    <li>Python</li>
+                    <li>Django</li>
+                    <li>C#</li>
+                    <li>Windows.Forms</li>
+                    <li>Git</li>
+                    <li>E pretendo aprender mais.</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h2>Contato</h2>
+                <p>Email: viccariandrey@gmail.com</p>
+                <p>Github: <a href="https://github.com/Viccari1">Viccari1</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/andrey-viccari-3a2356290/">Andrey Viccari</a></p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container mt-5">
+        <h2 class="text-center">Projetos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card bg-darker text-white">
+                    <img src="./img/img1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">VideoDownloader</h5>
+                        <p class="card-text">Um baixador de video do Youtube feito com C# e Windows.Forms.</p>
+                        <a href="https://github.com/Viccari1/VideoDownloader" class="btn btn-primary">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-darker text-white">
+                    <img src="./img/image.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Portifólio do Taxista</h5>
+                        <p class="card-text">
+                            Contribuí para um projeto de site front-end para um taxista.
+                        </p>
+                        <a href="#" class="btn btn-primary">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-darker text-white">
+                    <img src="https://placehold.co/600x400?text=Em+breve..." class="card-img-top" alt="Thumbnail Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Outros projetos em breve</h5>
+                        <p class="card-text">
+                            Muitos dos meus projetos estão em repositório privado, porém desejo adicionar
+                            mais projetos públicos ao meu Github.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer class="text-center mt-5">
+        <p>&copy; 2025 Copyright - Todos os direitos reservados para Andrey Viccari</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
