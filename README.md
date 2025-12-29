@@ -1,5 +1,5 @@
 # Viccari1.github.io
 
-Meu portifólio em site feito com html, css e bootstrap.
+Meu portifólio web feito com react e tailwind.
 
 Disponivel [aqui](https://viccari1.github.io/)
